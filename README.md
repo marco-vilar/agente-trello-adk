@@ -337,6 +337,44 @@ O projeto permitiu aplicar conceitos de:
 - Integração entre sistemas;
 - Git e GitHub.
 
+## Testes realizados
+
+O agente foi testado utilizando a interface `adk web` integrada a um quadro real do Trello.
+
+Foram validados os seguintes cenários:
+
+- listagem das tarefas cadastradas;
+- criação de novas tarefas;
+- registro correto da data de vencimento;
+- movimentação entre A fazer, Em andamento e Concluído;
+- execução de mais de uma ferramenta a partir de uma única solicitação;
+- remoção de tarefas;
+- integração entre Gemini, Google ADK, Python e API do Trello.
+
+Após cada operação, o resultado foi conferido diretamente no quadro do Trello.
+
+## Evidências de funcionamento
+
+### Listagem das tarefas
+
+![Listagem das tarefas no ADK e Trello](evidencias/01-listar-tarefas.png)
+
+### Criação de tarefa e correção de data
+
+![Criação de tarefa com data correta](evidencias/02-criar-tarefa-e-data.png)
+
+### Criação e movimentação entre listas
+
+![Criação e movimentação de tarefa](evidencias/03-criar-e-mover-tarefa.png)
+
+### Remoção de tarefas
+
+![Remoção de tarefas](evidencias/04-remover-tarefas.png)
+
+### Ferramentas registradas no agente
+
+![Ferramentas do agente](evidencias/05-tools-do-agente.png)
+
 ## Repositório
 
 Projeto disponível em:
